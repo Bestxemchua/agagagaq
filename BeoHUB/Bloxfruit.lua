@@ -2745,7 +2745,7 @@ function TP()
 			   v.HumanoidRootPart.Size = Vector3.new(60,60,60)
 EquipWeapon(getgenv().tool)
 game:GetService'VirtualUser':CaptureController()
-			   game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
+game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
 			if getgenv().Mode == "Above" then
 chichdiem(v.HumanoidRootPart.CFrame * CFrame.new(0,30,0))
 			   elseif getgenv().Mode == "Between" then
